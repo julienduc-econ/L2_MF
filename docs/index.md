@@ -17,5 +17,4 @@ Le calcul économique et financier repose naturellement sur les mathématiques. 
 ## Contenu
 
 - [Introduction aux intérêts](Intro.md)
-- [Intérêts composés](Interets_composes.ipynb)
 - [Intérêts simples](Interets_simples.ipynb)

@@ -4,10 +4,6 @@ use_directory_urls: true
 
 theme:
   name: material
-  hide:
-    site_name: true
-  features:
-    - navigation.expand  # expands the nav tree
 
 plugins:
   - mkdocs-jupyter
@@ -16,4 +12,3 @@ nav:
   - Accueil: index.md
   - Introduction: Intro.md
   - Intérêts simples: Interets_simples.ipynb
-  - Intérêts composés: Interets_composes.ipynb
