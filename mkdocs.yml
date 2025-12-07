@@ -6,7 +6,8 @@ theme:
   name: material
 
 plugins:
-  - mkdocs-jupyter
+  - mkdocs-jupyter:
+      execute: true
 
 nav:
   - Accueil: index.md
