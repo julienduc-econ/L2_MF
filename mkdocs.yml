@@ -1,0 +1,12 @@
+site_name: L2 - Mathématiques financières
+theme:
+  name: material
+
+plugins:
+  - mkdocs-jupyter
+
+nav:
+  - Accueil: index.md
+  - Introduction: Intro.md
+  - Intérêts simples: Interets_simples.ipynb
+  - Intérêts composés: Interets_composes.ipynb
