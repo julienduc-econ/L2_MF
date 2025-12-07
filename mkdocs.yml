@@ -17,5 +17,6 @@ plugins:
 # Navigation
 nav:
   - Accueil: index.md
+  - Introduction: Intro.md
   - Intérêts Simples: Interets_simples.ipynb
 
