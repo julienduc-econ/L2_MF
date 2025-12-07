@@ -1,6 +1,8 @@
 site_name: L2 - Mathématiques financières
 theme:
   name: material
+  hide:
+    site_name: true
 
 plugins:
   - mkdocs-jupyter
