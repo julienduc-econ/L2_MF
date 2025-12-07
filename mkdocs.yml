@@ -1,9 +1,13 @@
-site_name: L2 - Mathématiques financières
+site_name: "L2 - Mathématiques financières"
 theme:
   name: material
+  hide:
+    site_name: true
   features:
-    - navigation.tabs         # optional, if you want tab navigation
-    - navigation.top: false   # THIS hides the top bar site_name
+    - navigation.expand
+
+site_url: https://julienduc-econ.github.io/L2_MF/
+use_directory_urls: true
 
 plugins:
   - mkdocs-jupyter
@@ -13,4 +17,3 @@ nav:
   - Introduction: Intro.md
   - Intérêts simples: Interets_simples.ipynb
   - Intérêts composés: Interets_composes.ipynb
-
