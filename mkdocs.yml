@@ -1,15 +1,21 @@
-site_name: "L2 - Mathématiques financières"
-site_url: https://julienduc-econ.github.io/L2_MF/
-use_directory_urls: true
+# mkdocs.yml
+
+site_name: "L2_MF"
+site_url: "https://julienduc-econ.github.io/L2_MF/"
 
 theme:
-  name: material
+  name: material  # Requires mkdocs-material
+  palette:
+    primary: 'indigo'
+    accent: 'indigo'
 
+# Include plugins
 plugins:
-  - mkdocs-jupyter:
-      execute: true
+  - search
+  - mkdocs-jupyter
 
+# Navigation
 nav:
   - Accueil: index.md
-  - Introduction: Intro.md
-  - Intérêts simples: Interets_simples.ipynb
+  - Intérêts Simples: Interets_simples.ipynb
+
