@@ -1,7 +1,8 @@
 # mkdocs.yml
 
-site_name: "L2_MF"
+site_name: "Mathématiques Financières (L2)"
 site_url: "https://julienduc-econ.github.io/L2_MF/"
+use_directory_urls: true
 
 theme:
   name: material  # Requires mkdocs-material
