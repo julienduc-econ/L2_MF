@@ -13,8 +13,3 @@ Le calcul économique et financier repose naturellement sur les mathématiques. 
 ## Evaluation
 
 ## Comment réussir ?
-
-## Contenu
-
-- [Introduction aux intérêts](Intro.md)
-- [Intérêts simples](Interets_simples.ipynb)

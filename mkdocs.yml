@@ -12,11 +12,13 @@ theme:
 # Include plugins
 plugins:
   - search
-  - mkdocs-jupyter
+  - mkdocs-jupyter:
+      execute: true
 
 # Navigation
 nav:
   - Accueil: index.md
   - Introduction: Intro.md
   - Intérêts Simples: Interets_simples.ipynb
+  - Valeur Actuelle Nette: VAN.md
 
